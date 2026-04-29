@@ -1,0 +1,39 @@
+{
+  "name": "devportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "security:audit": "npm audit --audit-level=high",
+    "security:fix": "npm audit fix",
+    "security:check": "better-npm-audit audit --level high"
+  },
+  "dependencies": {
+    "@lemonsqueezy/lemonsqueezy.js": "^4.0.0",
+    "@supabase/supabase-js": "^2.105.1",
+    "@types/canvas-confetti": "^1.9.0",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.37.0",
+    "canvas-confetti": "^1.9.4",
+    "csrf-csrf": "^4.0.3",
+    "dompurify": "^3.4.1",
+    "jsdom": "^29.1.0",
+    "next": "14.2.35",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/jsdom": "^28.0.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "better-npm-audit": "^3.11.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
